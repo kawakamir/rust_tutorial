@@ -15,8 +15,6 @@ fn main() {
 
     let word = first_word(&s); // wordの中身は、値5になる
 
-    println!("{}", s);
-
     s.clear(); // Stringを空にする。つまり、""と等しくする
 
     // wordはまだ値5を保持しているが、もうこの値を有効に使用できる文字列は存在しない。
